@@ -81,8 +81,8 @@ export const DocViewer: React.FC<DocViewerProps> = ({ structure, files, onBack }
   }, [structure, searchTerm]);
 
   return (
-    <div className={`${isDarkMode ? 'dark' : ''} h-full`}>
-      <div className="flex h-screen bg-white dark:bg-slate-950 overflow-hidden text-slate-900 dark:text-slate-100 transition-colors duration-200">
+    <div className={`${isDarkMode ? 'dark' : ''} fixed inset-0 z-50 bg-white dark:bg-slate-950`}>
+      <div className="flex h-full bg-white dark:bg-slate-950 overflow-hidden text-slate-900 dark:text-slate-100 transition-colors duration-200">
         {/* Mobile Menu Backdrop */}
         {isMobileMenuOpen && (
           <div 
