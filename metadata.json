@@ -1,0 +1,5 @@
+{
+  "name": "DocuGen AI",
+  "description": "Instantly transform a folder of Markdown files into a stunning, structured documentation website using Gemini AI to organize and categorize your content.",
+  "requestFramePermissions": []
+}
